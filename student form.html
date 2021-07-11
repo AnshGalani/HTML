@@ -1,0 +1,151 @@
+<HTML>
+	<HADE>
+		<TITLE>STUDENT INFORMATION</TITLE>
+	</HADE>
+	<BODY BGCOLOR="CORNSILK">
+		<MARQUEE
+		BGCOLOR="CORNSILK"
+		HEIGHT="10%"
+		WIDTH="100%"
+		DIRECTION="LEFT"		
+		SCROLLDELAY="50"
+		LOOP=""
+		ONMOUSEOVER="this.stop();"
+		ONMOUSEOUT="this.start();"
+		>
+			<H1><FONT COLOR="RED">STUDENT INFORMATION</FONT></H1>
+		</MARQUEE>
+	
+		<FORM METHOD="POST">
+		
+			<TABLE BORDER="3" ALIGN="CENTER" WIDTH="50%">
+			
+			<TR>
+				<TH COLSPAN="3"> <H2> STUDENT INFORMATION </H2> </TD>
+			</TR>
+			
+				<TR>
+					<TD>FIRST NAME</TD>
+					<TD>:</TD>
+					<TD> <INPUT TYPE="TEXT" NAME="TXTFNAME" SIZE="30" PLACEHOLDER="ENTER YOUR FIRST NAME" REQUIRED> </TD>
+				</TR>
+				
+				<TR>
+					<TD>MIDDLE NAME</TD>
+					<TD>:</TD>
+					<TD> <INPUT TYPE="TEXT" NAME="TXTMNAME" SIZE="30" PLACEHOLDER="ENTER YOUR MIDDLE NAME" REQUIRED> </TD>
+				</TR>
+				
+				<TR>
+					<TD>LAST NAME</TD>
+					<TD>:</TD>
+					<TD> <INPUT TYPE="TEXT"  NAME="TXTLNAME" SIZE="30" PLACEHOLDER="ENTER YOUR LAST NAME" REQUIRED> </TD>
+				</TR>
+				
+				<TR>
+					<TD>GENDER</TD>
+					<TD>:</TD>
+					<TD> <INPUT TYPE="RADIO" NAME="RDOGENDER" > MALE
+		                <INPUT TYPE="RADIO" NAME="RDOGENDER" > FEMALE
+	                 	<INPUT TYPE="RADIO" NAME="RDOGENDER" > OTHER
+					</TD>
+				</TR>
+				
+				<TR>
+					<TD>BIRTH DATE</TD>
+					<TD>:</TD>
+					<TD> 
+							<INPUT TYPE="DATE" ID="" NAME="BDATE" >
+					</TD>	
+				</TR>
+				
+				<TR>
+					<TD>ADDRESS</TD>
+					<TD>:</TD>
+					<TD><TEXTAREA ID="" NAME="" COLS="30"></TEXTAREA></TD>
+				</TR>
+				
+				<TR>
+					<TD>COLLEGE NAME</TD>
+					<TD>:</TD>
+					<TD> <INPUT TYPE="TEXT" NAME="TXTCNAME" SIZE="30" PLACEHOLDER="ENTER YOUR COLLEGE NAME" REQUIRED> </TD>
+				</TR>
+				
+				<TR>
+					<TD>ID</TD>
+					<TD>:</TD>
+					<TD> <INPUT TYPE="TEXT" NAME="TXTID" SIZE="30" PLACEHOLDER="ENTER YOUR ID NUMBER" REQUIRED> </TD>
+				</TR>
+				
+				<TR>
+					<TD>CLASS NAME</TD>
+					<TD>:</TD>
+					<TD> <INPUT TYPE="TEXT" NAME="TXTCLNAME" SIZE="30" PLACEHOLDER="ENTER YOUR CLASS NAME" REQUIRED> </TD>
+				</TR>
+				
+				<TR>
+					<TD>COURSE NAME</TD>
+					<TD>:</TD>
+					<TD> <SELECT>
+							<OPTION>PLZ CHOOSE YOUR COURSE</OPTION>
+							<OPTION>BCOM</OPTION>
+							<OPTION>BBA</OPTION>
+							<OPTION>BCA</OPTION>
+							<OPTION>OTHER</OPTION>
+						</SELECT>
+					</TD>
+				</TR>
+				
+				<TR>
+					<TD>SEMESTER</TD>
+					<TD>:</TD>
+					<TD> <SELECT>
+							<OPTION>PLZ CHOOSE YOUR SEMESTER</OPTION>
+							<OPTION>1 SEM</OPTION>
+							<OPTION>2 SEM</OPTION>
+							<OPTION>3 SEM</OPTION>
+							<OPTION>4 SEM</OPTION>
+							<OPTION>5 SEM</OPTION>
+							<OPTION>6 SEM</OPTION>
+						</SELECT>
+					</TD>
+				</TR>
+				
+				<TR>
+					<TD>SUBJECTS</TD>
+					<TD>:</TD>
+					<TD> <INPUT TYPE="CHECKBOX" ID="CHKSUB" NAME="CHKSUB"> SUBJECTS:1<BR>
+					 <INPUT TYPE="CHECKBOX" ID="CHKSUB" NAME="CHKSUB"> SUBJECTS:2<BR>
+					 <INPUT TYPE="CHECKBOX" ID="CHKSUB" NAME="CHKSUB"> SUBJECTS:3<BR>
+					 <INPUT TYPE="CHECKBOX" ID="CHKSUB" NAME="CHKSUB"> SUBJECTS:4<BR>
+					 <INPUT TYPE="CHECKBOX" ID="CHKSUB" NAME="CHKSUB"> SUBJECTS:5<BR>
+					 <INPUT TYPE="CHECKBOX" ID="CHKSUB" NAME="CHKSUB"> SUBJECTS:6<BR>
+					 <INPUT TYPE="CHECKBOX" ID="CHKSUB" NAME="CHKSUB"> SUBJECTS:7<BR>
+					 </TD>
+				</TR>
+				
+				<TR>
+					<TD>CELL NUMBER</TD>
+					<TD>:</TD>
+					<TD> <INPUT TYPE="NUMBER"   REQUIRED> </TD>
+				</TR>
+				
+				<TR>
+					<TD>EMAIL ID</TD>
+					<TD>:</TD>
+					<TD> <INPUT TYPE="EMAIL" SIZE="25" PLACEHOLDER="ENTER YOUR EMAIL ID" REQUIRED> </TD>
+				</TR>
+				
+				<TR>
+					<TH COLSPAN="3"> 
+					<INPUT TYPE="SUBMIT" ONCLICK="JAVASCRIPT:alert('DO YOU WANT TO SUBMIT THIS FORM');"> 
+					<INPUT TYPE="RESET" ONCLICK="JAVASCRIPT:alert('DO YOU WANT TO RESET THIS FORM');"> 
+					</TH>
+				</TR>
+			</TABLE>
+	
+		</FORM>
+		
+	</BODY>
+	
+</HTML>
