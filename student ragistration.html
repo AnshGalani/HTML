@@ -1,0 +1,145 @@
+<!-- MAKE A REGISTRATION PAGE FOR ONLINE EXAMINATION SYSTEM.
+1.STUDENT ID
+2.STUDENT FULL NAME
+3.EMAIL ID 
+4.PASSWORD
+5.MOBLIE NUMER
+6.EXAM SEAT NUMBER
+7.DEPARTMENT
+8.SEMESTER
+9.DATE OF BIRTH
+10.PHOTO
+11.SIGNATURE
+-->
+
+
+<HTML>
+	<HEAD>
+		<TITLE> STUDENT REGISTRATION </TITLE>
+	</HEAD>
+		<BODY>
+			<FORM>
+				<TABLE BORDER="2" ALIGN="CENTER" height="50%" width="40%">
+				
+					<TR>
+						<TH COLSPAN="3"><H2>STUDENT DATA</H2></TH>
+					</TR>
+					
+					
+					<TR>
+						<TD>STUDENT ID</TD>
+						<TD>:</TD>
+						<TD><input type="text"  required></TD>
+					</TR>
+					
+					<TR>
+						<TD>STUDENT FULL NAME</TD>
+						<TD>:</TD>
+						<TD><input type="text" placeholder="Enter Your FULL Name" required></TD>
+					</TR>
+					
+					<TR>
+					<TD>GENDER</TD>
+					<TD>:</TD>
+					<TD> <INPUT TYPE="RADIO" NAME="RDOGENDER" > MALE
+		                <INPUT TYPE="RADIO" NAME="RDOGENDER" > FEMALE
+	                 	<INPUT TYPE="RADIO" NAME="RDOGENDER" > OTHER
+					</TD>
+				</TR>
+					
+					<TR>
+						<TD>EMAIL ID </TD>
+						<TD>:</TD>
+						<TD><input type="email" required></TD>
+					</TR>
+					
+					<TR>
+						<TD>PASSWORD </TD>
+						<TD>:</TH>
+						<TD><input type="password" required></TD>
+					</TR>
+					
+					<TR>
+						<TD>COMFIRM PASSWORD </TD>
+						<TD>:</TH>
+						<TD><input type="password" required></TD>
+					</TR>
+					
+					<TR>
+						<TD>MOBLIE NUMBER </TD>
+						<TD>:</TH>
+						<TD><input type="number" required></TD>
+					</TR>
+					
+					<TR>
+					<TD>SEMESTER</TD>
+					<TD>:</TD>
+					<TD> <SELECT>
+							<OPTION>PLZ CHOOSE YOUR SEMESTER</OPTION>
+							<OPTION>1 SEM</OPTION>
+							<OPTION>2 SEM</OPTION>
+							<OPTION>3 SEM</OPTION>
+							<OPTION>4 SEM</OPTION>
+							<OPTION>5 SEM</OPTION>
+							<OPTION>6 SEM</OPTION>
+						</SELECT>
+					</TD>
+				</TR>
+					
+					<TR>
+						<TD>EXAM SEAT NUMBER</TD>
+						<TD>:</TH>
+						<TD><input type="text" required></TD>
+					</TR>
+					
+					<TR>
+						<TD>DEPARTMENT</TD>
+						<TD>:</TD>
+						<TD>
+							<INPUT LIST="DEPT" required>
+							<datalist ID="DEPT">
+								<option>BCA</option>
+								<option>BBA</option>
+								<option>MBA</option>
+								<option>MCA</option>
+							</datalist>
+						</TD>
+					</TR>
+					
+					<TR>
+						<TD>DATE OF BIRTH</TD>
+						<TD>:</TH>
+						<TD><input type="date" required></TD>
+					</TR>
+					
+					<TR>
+						<TD>PHOTO</TD>
+						<TD>:</TH>
+						<TD><input type="file"  ACCEPT="IMAGE/*" required></TD>
+					</TR>
+					
+					<TR>
+						<TD>SIGNATURE</TD>
+						<TD>:</TH>
+						<TD><input type="file"  ACCEPT="IMAGE/*" required></TD>
+					</TR>
+					
+					<TR>
+						<TD>EXAM DATE AND TIME</TD>
+						<TD>:</TH>
+						<TD><input type="datetime-local" required></TD>
+					</TR>
+					
+					<TR>
+					<TH COLSPAN="3"> 
+					<INPUT TYPE="SUBMIT" ONCLICK="JAVASCRIPT:alert('DO YOU WANT TO SUBMIT THIS FORM');"> 
+					<INPUT TYPE="RESET" ONCLICK="JAVASCRIPT:alert('DO YOU WANT TO RESET THIS FORM');"> 
+					</TH>
+				</TR>
+				</TABLE>
+			</FORM>
+			
+		</BODY>
+</HTML>
+
+
