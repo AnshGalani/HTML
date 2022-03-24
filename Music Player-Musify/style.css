@@ -1,0 +1,178 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 165vh;
+    background-color: #333333;
+    display: flex;
+}
+
+.section_1{
+    width: 70%;
+    height: 100vh;
+    /*background-color: red;*/
+}
+
+.header{
+    width: 100%;
+    height: 150px;
+    /*background-color: yellow;*/
+    display: flex;
+    align-items: center;
+    font-size: 80px;
+    font-family: Segoe UI;
+    font-weight: bold;
+    padding-left: 50px;
+    color: white;
+}
+
+.audios{
+    height: 800px;
+    width: 100%;
+    /*background-color: gray;*/
+    padding: 50px;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    /*overflow-y: scroll;*/
+    column-gap: calc(4%/3);
+    row-gap: 20px;
+}
+
+.audio{
+    height: 350px;
+    min-height: 360px;
+    width: 24%;
+    background-color:#070707;
+    border-radius: 10px;
+    overflow: hidden;
+    
+}
+
+.audio_img{
+    width: 100%;
+    height: 200px;
+    /*background-color: yellow;*/
+    overflow: hidden;
+}
+
+.audio_img>img{
+    width: 100%;
+}
+
+.audio_detail{
+    padding: 20px;
+}
+
+.audio_title{
+    font-family: Segoe UI;
+    color: white;
+}
+
+
+.btn{
+    padding: 10px 30px;
+    margin-top: 10px;
+    border: 2px solid white;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: transparent;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.btn:hover{
+    background-color: #e68c1c;
+    border: 2px solid #e68c1c;
+}
+
+
+/*
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: white;
+    border-radius: 10px;
+}
+*/
+/*///////////////////CSS FOR SECTION_2///////////////*/
+.section_2{
+    width: 30%;
+    height: 100vh;
+    background-color: #070707;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    justify-content: center;
+}
+
+.img{
+    width: 100%;
+    height: 500px;
+    /*background-color: red;*/
+    overflow: hidden;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.img>img{
+    width: 100%;
+}
+
+.audio1{
+    width: 100%;
+    outline: none;
+}
+
+.audio_player_title{
+    font-family: Segoe UI;
+    color: white;
+    font-size: 50px;
+}
+/*
+.footer{
+    height: 100px;
+    width: 100%;
+    /*background-color: red;*/
+   /* font-size: 30px;
+    font-family: Segoe UI;
+    color: lightblue;
+    background-color: #333333;
+    padding: 30px;
+    text-align: center;
+}*/
+  
+  .waviy {
+    height: 100px;
+    width: 100%;
+    background-color:#333333;
+    position: relative;
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+  }
+  .waviy span {
+    position: relative;
+    display: inline-block;
+    font-size: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    animation: flip 3s infinite;
+    animation-delay: calc(.2s * var(--i))
+  }
+  @keyframes flip {
+    0%,80% {
+      transform: rotateY(360deg) 
+    }
+}
